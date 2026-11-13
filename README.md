@@ -8,6 +8,7 @@ The calculator models example bookings, driver payouts, operating expenses, and 
 
 ## Other free resources
 
+- [Taxi booking app launch cost guide on Leaflet](https://hoppvia.leaflet.pub/3n26safr5ok2c) — a planning guide for taxi operators
 - [Taxi dispatch ride-state-machine example](examples/README.md) — vendor-neutral JavaScript example, code and tests (not an official Hoppvia API)
 - [Taxi dispatch time-and-cost calculator](https://hoppvia.com/tools/taxi-dispatch-cost-calculator/) — compare manual dispatch effort using your own inputs
 
