@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#16213a">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://hoppvia.github.io/taxi-fleet-profit-calculator/">
+  <meta property="og:url" content="https://hoppvia.github.io/taxi-fleet-profit-calculator/">
+  <meta name="description" content="Free taxi fleet profit calculator for USA, UK and UAE operators. Estimate monthly bookings, driver payouts, operating profit and break-even rides using your own figures.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Taxi Fleet Profit Calculator | Free Operator Tool by Hoppvia">
+  <meta property="og:description" content="Estimate your fleet's monthly bookings, costs and break-even rides. Free, private, and built for taxi, private-hire and chauffeur operators.">
+  <meta name="twitter:card" content="summary">
+  <title>Taxi Fleet Profit Calculator (USA, UK &amp; UAE) | Hoppvia</title>
+  <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Taxi Fleet Profit Calculator",
+    "url": "https://hoppvia.github.io/taxi-fleet-profit-calculator/",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Any",
+    "isAccessibleForFree": true,
+    "description": "An illustrative taxi fleet profit and break-even calculator for fleet operators in the United States, United Kingdom and United Arab Emirates.",
+    "author": {"@type":"Organization","name":"Hoppvia","url":"https://hoppvia.com/"},
+    "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"}
+  }</script>
+  <style>
+    :root{--ink:#182239;--mid:#56627a;--muted:#748099;--line:#e3e8f0;--wash:#f5f7fb;--white:#fff;--navy:#111c32;--accent:#5357d9;--accent-d:#3f43b5;--pale:#eef0ff;--peach:#fae8da;--positive:#177b69;--negative:#bd4549;--shadow:0 16px 45px rgba(23,33,60,.07)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--wash);color:var(--ink);font:15px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}a{color:inherit}button,input{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid #a0a8ff;outline-offset:2px}.shell{max-width:1210px;margin:auto;padding:0 24px}.topbar{background:var(--navy);color:#fff}.topinner{min-height:74px;display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{display:flex;align-items:center;text-decoration:none;gap:10px;font-weight:830;font-size:21px;letter-spacing:-.8px}.mark{display:grid;place-items:center;width:32px;height:32px;background:#eef0ff;color:var(--accent);border-radius:10px;font-weight:900;font-size:20px}.topright{display:flex;align-items:center;gap:22px}.topright a{font-size:13px;color:#d7dcee;text-decoration:none}.topright a:hover{text-decoration:underline}.outline-link{border:1px solid #68748a;border-radius:10px;padding:9px 15px}
+    .hero{background:radial-gradient(circle at 87% 17%,rgba(119,116,252,.22),transparent 28%),linear-gradient(116deg,#101b31,#203054 79%,#29375b);color:#fff;padding:65px 0 76px;overflow:hidden}.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:1.65px;font-weight:750;color:#aeb7ff;display:flex;align-items:center;gap:8px}.dot{width:7px;height:7px;background:#f8bb83;border-radius:100%}.hero h1{font-weight:830;letter-spacing:-2.4px;font-size:clamp(36px,5.15vw,60px);max-width:790px;line-height:1.09;margin:17px 0}.hero p{max-width:680px;font-size:17px;color:#d3dbeb;margin:0}.hero-meta{display:flex;gap:12px;flex-wrap:wrap;margin-top:23px}.hero-meta span{border:1px solid rgba(222,228,255,.2);background:rgba(255,255,255,.055);border-radius:100px;padding:7px 13px;color:#e1e8fb;font-size:12px}.content{margin-top:-39px;position:relative;padding-bottom:50px}.dashboard{display:grid;grid-template-columns:minmax(0,1.06fr) minmax(360px,.94fr);gap:23px;align-items:start}.panel{background:#fff;border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);overflow:hidden}.panel-pad{padding:28px}.panel-head{display:flex;justify-content:space-between;align-items:flex-start;gap:15px}.tiny-label{text-transform:uppercase;letter-spacing:1.4px;color:var(--accent);font-weight:800;font-size:11px}.section-heading{font-size:24px;font-weight:800;letter-spacing:-.7px;margin:4px 0 3px}.section-copy{color:var(--mid);margin:0;font-size:13px}.step{background:var(--pale);color:var(--accent);font-size:12px;font-weight:800;padding:6px 10px;border-radius:7px;white-space:nowrap}.market-select{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin:22px 0 26px}.market-btn{border:1px solid var(--line);background:#fff;border-radius:12px;padding:12px 8px;color:var(--mid);text-align:center;font-weight:760;transition:.15s}.market-btn strong{display:block;font-size:14px;color:var(--ink)}.market-btn small{font-size:11px;font-weight:550}.market-btn[aria-pressed="true"]{border:2px solid var(--accent);background:var(--pale);padding:11px 7px;color:var(--accent)}.market-btn[aria-pressed="true"] strong{color:var(--accent)}.field-title{font-weight:790;font-size:13px;margin:0 0 14px;display:flex;align-items:center;gap:9px}.field-title:after{content:"";height:1px;flex:1;background:var(--line)}.fields{display:grid;grid-template-columns:1fr 1fr;gap:16px 18px;margin:0 0 25px}.field label{display:block;font-size:12px;color:var(--mid);font-weight:670;margin-bottom:7px}.input-wrap{display:flex;align-items:center;border:1px solid #dbe1eb;border-radius:9px;overflow:hidden;background:#fff}.input-wrap:focus-within{border-color:var(--accent);box-shadow:0 0 0 3px #ededff}.input-prefix,.input-suffix{font-size:12px;color:var(--mid);background:#f8f9fc;padding:11px 10px;white-space:nowrap}.input-prefix{border-right:1px solid #e9edf4}.input-suffix{border-left:1px solid #e9edf4}.field input{display:block;width:100%;min-width:0;border:0;outline:0;padding:10px 12px;color:var(--ink);font-weight:780;line-height:20px;font-size:15px;font-variant-numeric:tabular-nums}.field-hint{color:var(--muted);font-size:11px;margin:5px 0 0}.inline-notice{display:flex;gap:9px;background:#f4f5fd;border-radius:11px;padding:12px 14px;color:#5a6480;font-size:12px;line-height:1.55}.inline-notice svg{flex:none;margin-top:2px}.actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:17px}.plain-btn{border:1px solid #d9deeb;background:#fff;color:var(--ink);padding:10px 14px;border-radius:10px;font-size:12px;font-weight:800}.plain-btn:hover{background:#f7f8fc}.result-panel{position:sticky;top:16px}.result-dark{background:linear-gradient(126deg,#192440,#273459);color:#fff;padding:29px 29px 31px}.result-dark .tiny-label{color:#b9c0ff}.profit-value{font-size:clamp(30px,3.7vw,47px);font-weight:850;letter-spacing:-1.6px;margin:11px 0 0;font-variant-numeric:tabular-nums;line-height:1.2}.profit-value.negative{color:#ffbdb7}.result-sub{color:#c4cce3;font-size:12px;margin-top:5px}.metric-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:25px}.metric{padding:13px 14px;border:1px solid rgba(237,240,255,.18);background:rgba(255,255,255,.05);border-radius:11px}.metric span{display:block;color:#bfc9e3;font-size:11px}.metric strong{display:block;margin-top:3px;font-size:19px;letter-spacing:-.6px;line-height:1.25;font-variant-numeric:tabular-nums}.result-body{padding:27px 29px 29px}.results-title{font-size:15px;font-weight:830;margin:0 0 20px}.break-row{display:flex;justify-content:space-between;gap:10px;align-items:baseline;margin-top:14px;font-size:12px;color:var(--mid)}.break-row strong{color:var(--ink);font-size:14px;font-variant-numeric:tabular-nums}.total-row{border-top:1px solid var(--line);margin-top:16px;padding-top:17px}.stacked{height:14px;border-radius:20px;background:#f1f2f9;display:flex;overflow:hidden;margin-top:17px}.stacked>div{height:100%;transition:width .22s}.stack-driver{background:#9da8bc}.stack-fee{background:#f8bb83}.stack-remainder{background:#7776e8}.legend{display:flex;flex-wrap:wrap;gap:13px;margin-top:11px}.legend span{font-size:10px;color:var(--mid);display:flex;align-items:center;gap:5px}.legend i{width:8px;height:8px;border-radius:2px;display:inline-block}.insight{background:#f3f4ff;border-radius:12px;margin-top:24px;padding:15px 17px}.insight-head{font-size:11px;color:var(--accent);font-weight:790;text-transform:uppercase;letter-spacing:.8px}.insight-value{font-weight:820;font-size:21px;letter-spacing:-.5px;line-height:1.3;margin:4px 0}.insight-sub{font-size:11px;color:var(--mid);margin:0}.estimate-note{font-size:11px;color:var(--muted);margin:17px 0 0}.cta{border-radius:20px;background:#fff;display:grid;grid-template-columns:1fr auto;align-items:center;gap:20px;border:1px solid var(--line);padding:24px 28px;margin-top:22px;box-shadow:var(--shadow)}.cta h2{font-size:21px;letter-spacing:-.5px;margin:3px 0 7px;line-height:1.23}.cta p{color:var(--mid);margin:0;max-width:710px;font-size:13px}.cta-link{display:inline-flex;align-items:center;justify-content:center;background:var(--accent);color:#fff;border-radius:10px;padding:14px 18px;text-decoration:none;font-weight:780;font-size:13px;white-space:nowrap}.cta-link:hover{background:var(--accent-d)}.learn{display:grid;grid-template-columns:1.08fr .92fr;gap:25px;padding-top:38px}.learn h2{font-size:23px;line-height:1.3;letter-spacing:-.6px;margin:0 0 13px}.learn p,.learn li{color:var(--mid);font-size:13px;line-height:1.8}.learn ul{padding-left:19px;margin:12px 0 0}.learn h3{font-size:14px;margin:16px 0 5px}.faq{background:#fff;border-radius:15px;border:1px solid var(--line);padding:22px 24px}.faq details{border-bottom:1px solid var(--line);padding:13px 0}.faq details:last-child{border-bottom:none}.faq summary{font-weight:760;font-size:13px;cursor:pointer;line-height:1.5}.faq p{margin:9px 0 4px}.footer{border-top:1px solid var(--line);padding:25px 0 35px;display:flex;justify-content:space-between;align-items:center;gap:15px;color:#737f98;font-size:12px}.footer a{color:var(--mid);text-decoration:none}.footer a:hover{text-decoration:underline}.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    @media(max-width:950px){.dashboard{grid-template-columns:1fr}.result-panel{position:static}.cta{grid-template-columns:1fr}.learn{grid-template-columns:1fr}.hero{padding:48px 0 78px}}
+    @media(max-width:580px){.shell{padding:0 15px}.topinner{min-height:67px}.topright>a:not(.outline-link){display:none}.topright{gap:7px}.outline-link{padding:7px 10px}.hero{padding:40px 0 71px}.hero h1{letter-spacing:-1.4px}.hero p{font-size:15px}.panel-pad,.result-dark,.result-body{padding:21px}.panel{border-radius:16px}.market-select{gap:6px}.market-btn{padding:9px 4px}.market-btn[aria-pressed="true"]{padding:8px 3px}.market-btn strong{font-size:12px}.market-btn small{font-size:10px}.fields{gap:14px 10px}.field label{font-size:11px}.field input{padding:9px 7px;font-size:14px}.input-prefix,.input-suffix{padding:9px 7px}.metric-row{gap:8px}.metric{padding:11px 10px}.metric strong{font-size:16px}.profit-value{font-size:34px}.cta{padding:22px}.footer{display:block}.footer div+div{margin-top:9px}}
+  </style>
+</head>
+<body>
+  <header class="topbar"><div class="shell topinner"><a class="brand" href="https://hoppvia.com/" aria-label="Hoppvia website"><span class="mark">h</span> Hoppvia</a><nav class="topright" aria-label="Main navigation"><a href="#how-it-works">How it works</a><a href="https://hoppvia.com/" class="outline-link">Explore Hoppvia ↗</a></nav></div></header>
+  <main>
+    <section class="hero"><div class="shell"><div class="eyebrow"><span class="dot"></span> FREE FLEET PLANNING TOOL</div><h1>Know your numbers.<br>Drive a stronger fleet.</h1><p>Estimate monthly bookings, driver payouts, operating profit and break-even trips for your taxi or private-hire business. Use your figures, not ours.</p><div class="hero-meta"><span>No signup</span><span>USA · UK · UAE</span><span>Instant calculation</span><span>Works in your browser</span></div></div></section>
+    <div class="shell content"><div class="dashboard">
+      <section class="panel" aria-labelledby="inputs-heading"><div class="panel-pad">
+        <div class="panel-head"><div><div class="tiny-label">STEP 01 · YOUR ASSUMPTIONS</div><h2 class="section-heading" id="inputs-heading">Build your scenario</h2><p class="section-copy">Switch markets or customize every input.</p></div><div class="step">Editable</div></div>
+        <div class="market-select" role="group" aria-label="Select market"><button class="market-btn" type="button" data-market="us" aria-pressed="true"><strong>United States</strong><small>USD · $</small></button><button class="market-btn" type="button" data-market="uk" aria-pressed="false"><strong>United Kingdom</strong><small>GBP · £</small></button><button class="market-btn" type="button" data-market="ae" aria-pressed="false"><strong>United Arab Emirates</strong><small>AED · د.إ</small></button></div>
+        <h3 class="field-title">Fleet activity</h3>
+        <div class="fields">
+          <div class="field"><label for="drivers">Active drivers</label><div class="input-wrap"><input id="drivers" type="number" min="1" max="100000" step="1" inputmode="numeric" value="20"></div></div>
+          <div class="field"><label for="days">Operating days / month</label><div class="input-wrap"><input id="days" type="number" min="1" max="31" step="1" inputmode="numeric" value="26"></div></div>
+          <div class="field"><label for="trips">Trips / driver / day</label><div class="input-wrap"><input id="trips" type="number" min="0" max="200" step="0.5" inputmode="decimal" value="5"></div></div>
+          <div class="field"><label for="fare">Average customer fare</label><div class="input-wrap"><span class="input-prefix money-prefix">$</span><input id="fare" type="number" min="0" max="1000000" step="0.5" inputmode="decimal" value="24"></div></div>
+        </div>
+        <h3 class="field-title">Revenue sharing and variable costs</h3>
+        <div class="fields">
+          <div class="field"><label for="payout">Driver payout (% of fares)</label><div class="input-wrap"><input id="payout" type="number" min="0" max="100" step="0.5" inputmode="decimal" value="78"><span class="input-suffix">%</span></div></div>
+          <div class="field"><label for="fees">Payment fees (% of fares)</label><div class="input-wrap"><input id="fees" type="number" min="0" max="100" step="0.1" inputmode="decimal" value="2.5"><span class="input-suffix">%</span></div></div>
+          <div class="field"><label for="perTrip">Other variable cost / trip</label><div class="input-wrap"><span class="input-prefix money-prefix">$</span><input id="perTrip" type="number" min="0" max="100000" step="0.1" inputmode="decimal" value="0.5"></div><p class="field-hint">Example: per-booking support cost</p></div>
+        </div>
+        <h3 class="field-title">Fixed monthly business costs</h3>
+        <div class="fields">
+          <div class="field"><label for="dispatch">Dispatch and staff</label><div class="input-wrap"><span class="input-prefix money-prefix">$</span><input id="dispatch" type="number" min="0" max="100000000" step="50" inputmode="decimal" value="3000"></div></div>
+          <div class="field"><label for="software">Software and tools</label><div class="input-wrap"><span class="input-prefix money-prefix">$</span><input id="software" type="number" min="0" max="100000000" step="10" inputmode="decimal" value="300"></div><p class="field-hint">Your expected cost, not a Hoppvia quote</p></div>
+          <div class="field"><label for="marketing">Marketing</label><div class="input-wrap"><span class="input-prefix money-prefix">$</span><input id="marketing" type="number" min="0" max="100000000" step="50" inputmode="decimal" value="900"></div></div>
+          <div class="field"><label for="other">Other fixed costs</label><div class="input-wrap"><span class="input-prefix money-prefix">$</span><input id="other" type="number" min="0" max="100000000" step="50" inputmode="decimal" value="600"></div></div>
+        </div>
+        <div class="inline-notice"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5m0-8h.01"/></svg><div>Preset values are illustrative examples, not verified market benchmarks. Your results depend entirely on the figures you enter. This estimates operator-level contribution, not drivers' take-home profit.</div></div>
+        <div class="actions"><button type="button" class="plain-btn" id="reset">Reset sample figures</button><button type="button" class="plain-btn" id="csv">Download CSV report</button><button type="button" class="plain-btn" id="copy">Copy scenario link</button></div><p id="action-status" role="status" aria-live="polite" class="field-hint"></p>
+      </div></section>
+      <aside class="panel result-panel" aria-labelledby="results-heading"><div class="result-dark"><div class="tiny-label" id="results-heading">ESTIMATED MONTHLY OPERATING RESULT</div><div class="profit-value" id="profit">$7,368</div><div class="result-sub">Before tax, financing, depreciation and exceptional costs</div><div class="metric-row"><div class="metric"><span>Gross customer bookings</span><strong id="gross">$62,400</strong></div><div class="metric"><span>Operating margin on bookings</span><strong id="margin">11.8%</strong></div></div></div>
+        <div class="result-body"><h3 class="results-title">Monthly breakdown</h3>
+          <div class="break-row"><span>Gross booking value</span><strong id="grossBreak">$62,400</strong></div>
+          <div class="stacked" role="img" aria-label="Booking value split between driver payouts, payment fees and retained revenue"><div class="stack-driver" id="barDriver" style="width:78%"></div><div class="stack-fee" id="barFee" style="width:2.5%"></div><div class="stack-remainder" id="barRemain" style="width:19.5%"></div></div>
+          <div class="legend"><span><i style="background:#9da8bc"></i>Driver payout</span><span><i style="background:#f8bb83"></i>Processing fees</span><span><i style="background:#7776e8"></i>After payouts and fees</span></div>
+          <div class="break-row"><span>Driver payouts</span><strong id="payoutResult">−$48,672</strong></div>
+          <div class="break-row"><span>Payment fees</span><strong id="feesResult">−$1,560</strong></div>
+          <div class="break-row"><span>Other variable costs</span><strong id="variableResult">−$1,300</strong></div>
+          <div class="break-row"><span>Fixed monthly costs</span><strong id="fixedResult">−$4,800</strong></div>
+          <div class="break-row total-row"><span><strong>Estimated operating result</strong></span><strong id="profitBreak">$6,068</strong></div>
+          <div class="insight"><div class="insight-head">Estimated break-even point</div><div class="insight-value" id="breakeven">2.1 trips / driver / day</div><p class="insight-sub" id="breakevenSub">With your current fare, payout and operating costs</p></div>
+          <p class="estimate-note">This model assumes all selected drivers work the selected number of days and each trip is paid at the average fare. It excludes taxes, debt service, depreciation and costs not entered above. A negative result indicates an operating loss.</p>
+        </div>
+      </aside>
+    </div>
+    <section class="cta" aria-label="About Hoppvia"><div><div class="tiny-label">BUILT BY HOPPVIA</div><h2>Run your own branded taxi booking service.</h2><p>Hoppvia provides passenger and driver apps, live trip tracking and dispatch management for taxi, private-hire and chauffeur operators. Review whether the platform fits your fleet and market.</p></div><a class="cta-link" href="https://hoppvia.com/contact/?utm_source=github_pages&amp;utm_medium=free_tool&amp;utm_campaign=fleet_profit_calculator" target="_blank" rel="noopener noreferrer">Explore Hoppvia ↗</a></section>
+    <div class="learn" id="how-it-works"><section><div class="tiny-label">UNDERSTAND THE MODEL</div><h2>How to calculate taxi fleet operating profit</h2><p>Start with gross customer bookings: active drivers × trips per driver per day × days operated × average fare. Subtract the amounts paid to drivers, payment processing fees, other per-trip costs and fixed monthly expenses.</p><h3>The formula</h3><p><strong>Monthly operating result</strong> = (drivers × trips/day × days × average fare) − driver payouts − payment fees − per-trip costs − fixed costs.</p><h3>What break-even means</h3><p>Break-even trips per driver per day is the minimum average activity needed to cover the monthly fixed costs, under the assumed per-trip contribution. If per-trip contribution is zero or negative, no finite trip volume will cover fixed expenses.</p><h3>Where this helps</h3><ul><li>Estimate whether a new taxi, minicab, private-hire or limousine service can support its overhead.</li><li>Compare different fare, driver-share and monthly software-cost assumptions.</li><li>Plan conversations with potential software suppliers using your own figures.</li></ul></section>
+    <section class="faq" aria-labelledby="faq-heading"><h2 id="faq-heading">Common questions</h2><details open><summary>Does the calculator use real taxi market averages?</summary><p>No. The starting values are clearly illustrative, not independent market research or forecasts. Replace every assumption with your operation's actual numbers.</p></details><details><summary>Are the software cost figures Hoppvia's prices?</summary><p>No. The software input is yours to edit. For current Hoppvia options and a quote appropriate to your fleet, refer to <a href="https://hoppvia.com/pricing/">Hoppvia's pricing page</a>.</p></details><details><summary>Can I use this for London, New York or Dubai?</summary><p>Yes. Select GBP, USD or AED as appropriate, then enter local fares, driver payouts and costs. The calculator does not estimate local taxes or regulatory expenses automatically.</p></details><details><summary>Is anything sent to a server?</summary><p>No calculation inputs are transmitted to a backend by this tool. The optional share-link feature puts the entered values into the URL, so anyone with that link can read them. Use an ordinary reset before sharing publicly if your figures are sensitive.</p></details></section></div>
+    <footer class="footer"><div>© <span id="year">2026</span> Hoppvia · Independent planning estimates, not financial advice.</div><div><a href="https://hoppvia.com/">Hoppvia home</a> &nbsp;·&nbsp; <a href="https://hoppvia.com/contact/">Contact</a> &nbsp;·&nbsp; <a href="https://hoppvia.com/privacy-policy/">Privacy</a></div></footer>
+  </div></main>
+  <script>
+  (() => {
+    'use strict';
+    const settings = {
+      us: { currency: 'USD', symbol:'$', drivers:20, days:26, trips:5, fare:24, payout:78, fees:2.5, perTrip:0.5, dispatch:3000, software:300, marketing:900, other:600 },
+      uk: { currency: 'GBP', symbol:'£', drivers:15, days:26, trips:5, fare:19, payout:75, fees:2.2, perTrip:0.4, dispatch:2600, software:250, marketing:700, other:550 },
+      ae: { currency: 'AED', symbol:'AED', drivers:20, days:26, trips:5, fare:85, payout:77, fees:2.5, perTrip:2, dispatch:8500, software:900, marketing:2600, other:1700 }
+    };
+    const ids = ['drivers','days','trips','fare','payout','fees','perTrip','dispatch','software','marketing','other'];
+    const get = (id) => document.getElementById(id);
+    const fmtNum = (n,d=1) => Number.isFinite(n) ? new Intl.NumberFormat('en-US',{maximumFractionDigits:d}).format(n) : '—';
+    let market = 'us'; let result = null;
+    function number(id) {
+      const el=get(id), value=Number(el.value); const min=Number(el.min), max=Number(el.max);
+      return Number.isFinite(value) ? Math.min(Math.max(value, min), max) : 0;
+    }
+    function money(value, digits=0) { return new Intl.NumberFormat(market==='uk'?'en-GB':market==='ae'?'en-AE':'en-US',{style:'currency', currency:settings[market].currency, maximumFractionDigits:digits, minimumFractionDigits:0}).format(value); }
+    function inputData() {return Object.fromEntries(ids.map(id=>[id, number(id)]));}
+    function calculate(){
+      const x=inputData();
+      const tripsMonthly=x.drivers*x.days*x.trips;
+      const gross=tripsMonthly*x.fare;
+      const driver=gross*x.payout/100;
+      const fees=gross*x.fees/100;
+      const otherVariable=tripsMonthly*x.perTrip;
+      const fixed=x.dispatch+x.software+x.marketing+x.other;
+      const profit=gross-driver-fees-otherVariable-fixed;
+      const perTripMargin=x.fare*(1-(x.payout+x.fees)/100)-x.perTrip;
+      const breakeven= x.drivers>0 && x.days>0 && perTripMargin>0 ? fixed/(x.drivers*x.days*perTripMargin) : null;
+      const margin=gross>0 ? (profit/gross*100) : null;
+      return {...x,tripsMonthly,gross,driver,feesTotal:fees,otherVariable,fixed,profit,perTripMargin,breakeven,margin};
+    }
+    function update(){
+      result=calculate(); const r=result;
+      get('profit').textContent=money(r.profit);get('profit').classList.toggle('negative',r.profit<0);
+      get('gross').textContent=money(r.gross);
+      get('margin').textContent=r.margin===null?'—':`${fmtNum(r.margin)}%`;
+      get('grossBreak').textContent=money(r.gross);
+      get('payoutResult').textContent='−'+money(r.driver);
+      get('feesResult').textContent='−'+money(r.feesTotal);
+      get('variableResult').textContent='−'+money(r.otherVariable);
+      get('fixedResult').textContent='−'+money(r.fixed);
+      get('profitBreak').textContent=money(r.profit);
+      const validShare = r.gross>0;
+      const driverShare=validShare?Math.min(100,r.driver/r.gross*100):0;
+      const feeShare=validShare?Math.min(100-driverShare,r.feesTotal/r.gross*100):0;
+      get('barDriver').style.width=driverShare+'%';get('barFee').style.width=feeShare+'%';get('barRemain').style.width=Math.max(0,100-driverShare-feeShare)+'%';
+      get('breakeven').textContent=r.breakeven===null?'Not achievable':`${fmtNum(r.breakeven,2)} trips / driver / day`;
+      get('breakevenSub').textContent=r.breakeven===null?'Per-trip contribution is zero or negative, or no active operating days are entered.':`About ${fmtNum(Math.ceil(r.breakeven * 10) / 10,1)} trips/day per driver at your assumptions; actual demand varies.`;
+    }
+    function applyMarket(next){
+      market=next;
+      ids.forEach(id=>{get(id).value=settings[market][id]});
+      document.querySelectorAll('.money-prefix').forEach(e=>e.textContent=settings[market].symbol);
+      document.querySelectorAll('[data-market]').forEach(b=>b.setAttribute('aria-pressed', String(b.dataset.market===market)));
+      get('action-status').textContent='';update();
+    }
+    function loadLink(){
+      const q=new URLSearchParams(window.location.search);const m=q.get('market');
+      applyMarket(settings[m]?m:'us');
+      if(q.get('scenario')!=='1')return;
+      ids.forEach(id=>{const value=q.get(id);if(value!==null && value.trim()!=='' && Number.isFinite(Number(value)))get(id).value=value});
+      update();
+    }
+    function csvEscape(v){return '"'+String(v).replaceAll('"','""')+'"'}
+    function downloadCsv(){
+      const r=result, data=[['Field','Value'],['Market',market],['Currency',settings[market].currency],
+        ...ids.map(id=>[id,r[id]]),['Monthly trips',r.tripsMonthly],['Gross booking value',r.gross],['Driver payouts',r.driver],['Processing fees',r.feesTotal],['Other variable costs',r.otherVariable],['Fixed monthly costs',r.fixed],['Operating result',r.profit],['Operating margin (%)',r.margin===null?'':r.margin],['Break-even trips per driver per day',r.breakeven===null?'Not achievable':r.breakeven],['Disclaimer','Illustrative only; excludes taxes, debt, financing and depreciation']];
+      const csv='\ufeff'+data.map(row=>row.map(csvEscape).join(',')).join('\r\n');
+      const a=document.createElement('a');const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));
+      a.href=url;a.download='taxi-fleet-profit-'+market+'.csv';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+      get('action-status').textContent='CSV report downloaded.';
+    }
+    async function copyScenario(){
+      const url=new URL(window.location.href); url.search='';url.searchParams.set('market',market);url.searchParams.set('scenario','1');
+      ids.forEach(id=>url.searchParams.set(id,String(number(id))));
+      try {await navigator.clipboard.writeText(url.toString());get('action-status').textContent='Scenario link copied. Anyone with the link can see these figures.';}
+      catch(e){get('action-status').textContent='Copy unavailable in this browser; use your browser Share feature.';}
+    }
+    document.querySelectorAll('[data-market]').forEach(b=>b.addEventListener('click',()=>applyMarket(b.dataset.market)));
+    ids.forEach(id=>get(id).addEventListener('input',update));
+    get('reset').addEventListener('click',()=>applyMarket(market));
+    get('csv').addEventListener('click',downloadCsv);
+    get('copy').addEventListener('click',copyScenario);
+    get('year').textContent=String(new Date().getFullYear());
+    loadLink();
+  })();
+  </script>
+</body>
+</html>
